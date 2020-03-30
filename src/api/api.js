@@ -3,7 +3,7 @@ import http from './http'
 const ENDPOINTS = {
     SELLERS: '/api/sellers',
     BUYERS: '/api/buyers',
-    PRODUCTS: '/api/products'
+    PRODUCTS: '/api/products/'
 }
 
 export default {
@@ -15,7 +15,7 @@ export default {
             return http.get(ENDPOINTS.SELLERS)
         },
         getById(id) {
-            return http.get(`${ENDPOINTS.SELLERS}/${id}`)
+            return http.get(`${ENDPOINTS.SELLERS}`, id)
         },
     },
     buyers: {
