@@ -1,4 +1,6 @@
 This is the front end for the wholesale food redistribution app
+Front end app connected to a node service
+https://get-bread.herokuapp.com/
 
 ## Steps to Set up Backend
 cd db/project
